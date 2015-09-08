@@ -1,7 +1,7 @@
 Murdock
 =======
 
-I love it when a test plan comes together
+### I love it when a test plan comes together
 
 
 - plugin based
@@ -11,7 +11,7 @@ I love it when a test plan comes together
 - layers/filters that can hook into events like pass, fail, error, others
     - allow for definition of a layer as a set of validations/checks
     - on failure/error, current page state gets passed through each specified layer
-    - example: 
+    - example:
         - some test says it uses the "error message layer"
             - layer definition that checks for some specific error message element and certain error messages are okay, so test should pass, others are bad, and test should fail
         - on error/failure, Murdock runs through loaded layers
@@ -25,4 +25,4 @@ I love it when a test plan comes together
     - run only specific tags, exclude specific tags
 - hstf1 features that desperately needed refactoring are much improved
     - sharing data between plugins is standardized and not just shoveled in and out of a test object
-    - take advantage of newer selenium features? 
+    - take advantage of newer selenium features? A lot has happened in 2 years.
